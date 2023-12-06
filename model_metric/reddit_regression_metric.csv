@@ -1,0 +1,8 @@
+subreddit,Root Mean Squared Error,Mean Squared Error,Mean Absolute Error,R-squared
+r/books,103.39324,10690.162,22.261074,-0.11800703
+r/personalfinance,91.91888,8449.079,16.93279,-0.041326847
+r/programming,58.76984,3453.8943,22.654121,-0.35712686
+r/relationship_advice,96.04032,9223.742,19.174639,-0.01173983
+r/mildlyinteresting,231.99585,53822.074,31.362856,-0.028979968
+r/YouShouldKnow,157.15237,24696.87,44.72835,-0.3601451
+r/LifeProTips,186.564,34806.125,31.248205,-0.08126477
