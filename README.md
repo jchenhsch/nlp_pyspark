@@ -6,7 +6,8 @@ BFG-cleaner helps clean up the token just in case you accidentially include in t
 
 ```
 mac brew install bfg
-git clone --mirror git@github.com:jchenhsch/pyspark_nlp.git  
+git clone --mirror git@github.com:jchenhsch/pyspark_nlp.git
+cd pyspark_nlp.git
 bfg -D auth_git_repo.git
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push
@@ -19,4 +20,8 @@ git push
 ### load code 
 load and scrape the Youtube data based on the keywords
 
-### 
+### model train code
+train/ cross_validate / debug for multilabel SVM models (reddit data) using spark.mlib 
+
+### visualization code
+EDA for the reddit/ youtube datasets
